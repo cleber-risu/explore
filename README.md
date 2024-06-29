@@ -1,4 +1,4 @@
-<h1 align="center">Explores sem limites</h1>
+<h1 align="center">Explore sem limites</h1>
 
 <p align="center">
   <img alt="Explore sem limites" src=".github/thumb-proj.png" width="100%">
