@@ -341,3 +341,33 @@ footer {
 }
 
 /* animations */
+
+.hero .hero-img {
+  animation: move 750ms ease-in-out;
+}
+
+.hero h1 {
+  animation: left-move 500ms ease-in-out;
+}
+
+.hero p {
+  animation: left-move 650ms ease-in-out;
+}
+
+.hero button {
+  animation: left-move 750ms ease-in-out;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-100%);
+    opacity: .5;
+  }
+}
+
+@keyframes left-move {
+  from {
+    transform: translateX(-1440px);
+    opacity: .5;
+  }
+}
